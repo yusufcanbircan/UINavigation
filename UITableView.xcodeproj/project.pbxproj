@@ -13,6 +13,7 @@
 		E414D967287DCA1500AF79F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E414D966287DCA1500AF79F1 /* Assets.xcassets */; };
 		E414D96A287DCA1500AF79F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E414D968287DCA1500AF79F1 /* LaunchScreen.storyboard */; };
 		E414D977287DCDF200AF79F1 /* InitialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414D976287DCDF200AF79F1 /* InitialTableViewController.swift */; };
+		E4A23A4E287F020E00E142AF /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A23A4D287F020E00E142AF /* PinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E414D969287DCA1500AF79F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E414D96B287DCA1500AF79F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E414D976287DCDF200AF79F1 /* InitialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialTableViewController.swift; sourceTree = "<group>"; };
+		E4A23A4D287F020E00E142AF /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		E414D974287DCB2B00AF79F1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E4A23A4D287F020E00E142AF /* PinkViewController.swift */,
 				E414D976287DCDF200AF79F1 /* InitialTableViewController.swift */,
 			);
 			path = Controller;
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A23A4E287F020E00E142AF /* PinkViewController.swift in Sources */,
 				E414D95E287DCA1300AF79F1 /* AppDelegate.swift in Sources */,
 				E414D977287DCDF200AF79F1 /* InitialTableViewController.swift in Sources */,
 				E414D960287DCA1300AF79F1 /* SceneDelegate.swift in Sources */,

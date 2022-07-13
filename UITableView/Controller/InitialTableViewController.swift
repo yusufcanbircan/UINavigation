@@ -18,7 +18,7 @@ class InitialTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Settings"
         
     }
 
@@ -42,7 +42,7 @@ class InitialTableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    /*override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let alertController = UIAlertController(title: "Alert",
                                                 message: tableViewData[indexPath.section][indexPath.row],
@@ -63,7 +63,7 @@ class InitialTableViewController: UITableViewController {
         
         present(alertController, animated: true)
         
-    }
+    }*/
     
 
     /*
